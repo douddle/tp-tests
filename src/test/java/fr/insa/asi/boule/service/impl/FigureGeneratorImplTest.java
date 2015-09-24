@@ -16,15 +16,15 @@ public class FigureGeneratorImplTest extends NumberGeneratorImpl {
 	public void shouldFiguresReallyRandom() {
 		NumberGenerator generator = new NumberGeneratorImpl();
 		Map<Number, Integer> figures = new HashMap<>();
-		figures.put(Number.F1, 0);
-		figures.put(Number.F2, 0);
-		figures.put(Number.F3, 0);
-		figures.put(Number.F4, 0);
-		figures.put(Number.F5, 0);
-		figures.put(Number.F6, 0);
-		figures.put(Number.F7, 0);
-		figures.put(Number.F8, 0);
-		figures.put(Number.F9, 0);
+		figures.put(Number.N1, 0);
+		figures.put(Number.N2, 0);
+		figures.put(Number.N3, 0);
+		figures.put(Number.N4, 0);
+		figures.put(Number.N5, 0);
+		figures.put(Number.N6, 0);
+		figures.put(Number.N7, 0);
+		figures.put(Number.N8, 0);
+		figures.put(Number.N9, 0);
 		for (int i = 0; i < 9000; i++) {
 			Number f = generator.generate();
 			figures.put(f, figures.get(f) + 1);

@@ -12,15 +12,15 @@ public class NumberGeneratorImpl implements NumberGenerator {
 
 	public NumberGeneratorImpl() {
 		figures = new HashMap<>();
-		figures.put(1, Number.F1);
-		figures.put(2, Number.F2);
-		figures.put(3, Number.F3);
-		figures.put(4, Number.F4);
-		figures.put(5, Number.F5);
-		figures.put(6, Number.F6);
-		figures.put(7, Number.F7);
-		figures.put(8, Number.F8);
-		figures.put(9, Number.F9);
+		figures.put(1, Number.N1);
+		figures.put(2, Number.N2);
+		figures.put(3, Number.N3);
+		figures.put(4, Number.N4);
+		figures.put(5, Number.N5);
+		figures.put(6, Number.N6);
+		figures.put(7, Number.N7);
+		figures.put(8, Number.N8);
+		figures.put(9, Number.N9);
 	}
 	
 	public Number generate() {

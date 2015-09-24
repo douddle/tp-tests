@@ -2,16 +2,16 @@ package fr.insa.asi.boule.model;
 
 public enum Number {
 
-	F1(1, false, false),
-	F2(2, false, true),
-	F3(3, false, false),
-	F4(4, false, true),
-	F5(5, false, true),
-	F6(6, true, false),
-	F7(7, true, true),
-	F8(8, true, true),
-	F9(9, true, false);
-	
+	N1(1, false, false),
+	N2(2, false, true),
+	N3(3, false, false),
+	N4(4, false, true),
+	N5(5, false, true),
+	N6(6, true, false),
+	N7(7, true, true),
+	N8(8, true, true),
+	N9(9, true, false);
+
 	private int valeur;
 	
 	private boolean passe;
